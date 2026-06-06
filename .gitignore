@@ -1,0 +1,30 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# Figures
+*.png
+*.jpg
+
+# Python cache
+.cache/
