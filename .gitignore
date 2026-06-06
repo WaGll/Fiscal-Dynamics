@@ -31,4 +31,10 @@ venv/
 # claude
 .claude
 CLAUDE.md
+
+data/*
+!data/.gitkeep
+
 doc/*
+!dir/.gitkeep
+
