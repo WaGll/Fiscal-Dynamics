@@ -47,13 +47,13 @@ All tables must include `Sgnyea` (year) and `AreaName` (region name) columns for
 ## Project Structure
 
 ```text
-fiscal-dynamics/
+Fiscal-Dynamics/
 ├── data/            — Raw data (Excel, shapefiles)  [git-ignored]
 ├── notebooks/       — Jupyter analysis notebook
 ├── src/             — Utility entry point
 ├── figures/         — Output charts  [git-ignored]
 ├── doc/             — correlative paper
-├── README_.md        — Project README (Chinese)
+├── README.md        — Project README (Chinese)
 ├── README_EN.md     — Project README (English)
 ├── LICENSE          — MIT License
 ├── requirements.txt — Python dependencies

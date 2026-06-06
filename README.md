@@ -47,13 +47,13 @@ jupyter notebook notebooks/fiscal-dynamics-analysis.ipynb
 ## 项目结构
 
 ```text
-fiscal-dynamics/
+Fiscal-Dynamics/
 ├── data/            — 原始数据（Excel, shapefile）  [git-ignored]
 ├── notebooks/       — Jupyter 分析 notebook
 ├── src/             — 工具入口
 ├── figures/         — 输出图表  [git-ignored]
 ├── doc/             — 相关文档
-├── README_.md        — 项目说明（中文）
+├── README.md        — 项目说明（中文）
 ├── README_EN.md     — 项目说明（英文）
 ├── LICENSE          — MIT License
 ├── requirements.txt — Python 依赖
