@@ -36,5 +36,5 @@ data/*
 !data/.gitkeep
 
 doc/*
-!dir/.gitkeep
+!doc/.gitkeep
 

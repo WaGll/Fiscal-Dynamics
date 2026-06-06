@@ -36,11 +36,11 @@ jupyter notebook notebooks/fiscal-dynamics-analysis.ipynb
 
 ## Data Requirements
 
-| File | Key Fields |
-|------|------------|
-| Industrial tax | TaxAmount, PrimaryInduTaxAmount, SecondInduTaxAmount, TertiaryInduTaxAmount |
+| File                    | Key Fields                                                                                                                          |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Industrial tax          | TaxAmount, PrimaryInduTaxAmount, SecondInduTaxAmount, TertiaryInduTaxAmount                                                         |
 | Consumption expenditure | ConsumExpense, CE_FoodTobaccoliquor, CE_Clothing, CE_Resident, CE_DailyUse, CE_TrafficCommunicate, CE_EducateCulture, CE_HealthCare |
-| Disposable income | PCDI, PCDI_WageIncome, PCDI_BusinessIncome, PCDI_PropertyIncome, PCDI_TransferIncome |
+| Disposable income       | PCDI, PCDI_WageIncome, PCDI_BusinessIncome, PCDI_PropertyIncome, PCDI_TransferIncome                                                |
 
 All tables must include `Sgnyea` (year) and `AreaName` (region name) columns for joining.
 
@@ -52,8 +52,7 @@ fiscal-dynamics/
 ├── notebooks/       — Jupyter analysis notebook
 ├── src/             — Utility entry point
 ├── figures/         — Output charts  [git-ignored]
-├── doc/             — Reference paper
-├── CLAUDE.md        — Claude Code guide
+├── doc/             — correlative paper
 ├── README_.md        — Project README (Chinese)
 ├── README_EN.md     — Project README (English)
 ├── LICENSE          — MIT License

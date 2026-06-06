@@ -36,11 +36,11 @@ jupyter notebook notebooks/fiscal-dynamics-analysis.ipynb
 
 ## 数据要求
 
-| 文件 | 关键字段 |
-|------|----------|
-| 产业税收表 | TaxAmount, PrimaryInduTaxAmount, SecondInduTaxAmount, TertiaryInduTaxAmount |
+| 文件               | 关键字段                                                                                                                            |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| 产业税收表         | TaxAmount, PrimaryInduTaxAmount, SecondInduTaxAmount, TertiaryInduTaxAmount                                                         |
 | 居民人均消费支出表 | ConsumExpense, CE_FoodTobaccoliquor, CE_Clothing, CE_Resident, CE_DailyUse, CE_TrafficCommunicate, CE_EducateCulture, CE_HealthCare |
-| 人均可支配收入表 | PCDI, PCDI_WageIncome, PCDI_BusinessIncome, PCDI_PropertyIncome, PCDI_TransferIncome |
+| 人均可支配收入表   | PCDI, PCDI_WageIncome, PCDI_BusinessIncome, PCDI_PropertyIncome, PCDI_TransferIncome                                                |
 
 所有表需包含 `Sgnyea`（年度标识）、`AreaName`（地区名称）列用于连接。
 
@@ -52,8 +52,7 @@ fiscal-dynamics/
 ├── notebooks/       — Jupyter 分析 notebook
 ├── src/             — 工具入口
 ├── figures/         — 输出图表  [git-ignored]
-├── doc/             — 参考论文
-├── CLAUDE.md        — Claude Code 使用指南
+├── doc/             — 相关文档
 ├── README_.md        — 项目说明（中文）
 ├── README_EN.md     — 项目说明（英文）
 ├── LICENSE          — MIT License
