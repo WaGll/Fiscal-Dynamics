@@ -28,3 +28,7 @@ venv/
 
 # Python cache
 .cache/
+# claude
+.claude
+CLAUDE.md
+doc/*
